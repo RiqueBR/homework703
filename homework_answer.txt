@@ -1,0 +1,9 @@
+1. Continent View is rendering more than once, it's actually rendering all the continents
+and also sending the information to Continent list view, to which continent view is being rendered
+there as well.
+
+2. Continent view is nested within continent list view, to the extent that continent view is
+dependent of the list view.
+
+3. It allows views to keep under the single responsibility mode, helps with usability
+and it is easier to manage pages.
